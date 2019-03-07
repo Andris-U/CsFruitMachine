@@ -8,7 +8,7 @@ namespace FruitMachine
     {
         public static List<Reel> Reels { get; } = new List<Reel>();
         private int _reelNumber = 3;
-        readonly Random _random = new Random();
+        private readonly Random _random = new Random();
         private bool _running = true;
         Gui gui = new Gui();
 
@@ -53,8 +53,8 @@ namespace FruitMachine
             {
                 if (Reels[Reels.Count -1].IsRunning && stopwatch.ElapsedMilliseconds > 30)
                 {
-                    Render();
                     Tick();
+                    Render();
                     stopwatch.Restart();
                 }
                 else if (!Reels[Reels.Count - 1].IsRunning)

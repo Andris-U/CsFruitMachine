@@ -19,7 +19,7 @@ namespace FruitMachine
         {
             if (_timer < _maxTime)
             {
-                Index = Index == 4 ? 0 : Index += 1;
+                Index = Index + 1 == 4 ? 0 : Index += 1;
                 _timer++;
             }
             else
