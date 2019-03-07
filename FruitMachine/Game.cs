@@ -6,23 +6,24 @@ namespace FruitMachine
 {
     public class Game
     {
-        private List<Reel> reels = new List<Reel>();
-        private int reelNumber = 3;
-        readonly Random random = new Random();
-        private bool running = true;
+        public static List<Reel> Reels { get; } = new List<Reel>();
+        private int _reelNumber = 3;
+        readonly Random _random = new Random();
+        private bool _running = true;
+        Gui gui = new Gui();
 
         public void CreateReels()
         {
-            for (int i = 0; i < reelNumber; i++)
+            for (int i = 0; i < _reelNumber; i++)
             {
-                Reel reel = new Reel(200 + random.Next(80, 100) * i);
-                reels.Add(reel);
+                Reel reel = new Reel(150 + _random.Next(50, 70) * i);
+                Reels.Add(reel);
             }
         }
 
         private void Tick()
         {
-            foreach (Reel reel in reels)
+            foreach (Reel reel in Reels)
             {
                 if (reel.IsRunning)
                 {
@@ -34,29 +35,31 @@ namespace FruitMachine
         private void Render()
         {
             Console.Clear();
-            String indexes = "";
-            foreach (var reel in reels)
+            string indexes = "";
+            foreach (var reel in Reels)
             {
                 indexes += reel.Index + " ";
             }
             Console.WriteLine(indexes);
+            gui.GenerateLines();
+            gui.renderFruits();
         }
 
         public void Run()
         {
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-            while (running)
+            while (_running)
             {
-                if (reels[reels.Count -1].IsRunning && stopwatch.ElapsedMilliseconds > 6)
+                if (Reels[Reels.Count -1].IsRunning && stopwatch.ElapsedMilliseconds > 30)
                 {
                     Render();
                     Tick();
                     stopwatch.Restart();
                 }
-                else if (!reels[reels.Count - 1].IsRunning)
+                else if (!Reels[Reels.Count - 1].IsRunning)
                 {
-                    running = false;
+                    _running = false;
                 }
             }
             stopwatch.Stop();
