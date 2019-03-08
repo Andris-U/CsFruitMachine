@@ -6,6 +6,7 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="FruitMachine" t="IncludeRecursive">
         <e p="Ascii.cs" t="Include" />
+        <e p="Controls.cs" t="Include" />
         <e p="FruitMachine.csproj" t="IncludeRecursive" />
         <e p="Game.cs" t="Include" />
         <e p="Gui.cs" t="Include" />

@@ -5,33 +5,51 @@ namespace FruitMachine
 {
     public class Gui
     {
-        private static string _firstLine;
-        private static string _secondLine;
-        private static string _thirdLine;
-        private static string _fourthLine;
 
-
-        internal void GenerateLines()
+        internal void GenerateLines(int credits, int bet)
         {
-            _firstLine = "";
-            _secondLine = "";
-            _thirdLine = "";
-            _fourthLine = "";
-            foreach (var variable in Game.Reels)
-            {
-                _firstLine += Ascii.GetFruit(variable.Index)[0];
-                _secondLine += Ascii.GetFruit(variable.Index)[1];
-                _thirdLine += Ascii.GetFruit(variable.Index)[2];
-                _fourthLine += Ascii.GetFruit(variable.Index)[3];
-            }
+            renderTitle();
+            RenderFruits();
+            RenderStats(credits, bet);
         }
 
-        internal void renderFruits()
+        internal void renderTitle()
         {
-            Console.WriteLine(_firstLine);
-            Console.WriteLine(_secondLine);
-            Console.WriteLine(_thirdLine);
-            Console.WriteLine(_fourthLine);
+            Console.WriteLine(Ascii.Title);
+        }
+
+        internal void RenderStats(int credits, int bet)
+        {
+            string stats = "";
+            stats += "        Your credits: " + credits;
+            stats += "    Your bet: " + bet;
+            Console.WriteLine();
+            Console.WriteLine(stats);
+            Console.WriteLine();
+        }
+
+        internal void RenderFruits()
+        {
+            string firstLine = "";
+            string secondLine = "";
+            string thirdLine = "";
+            string fourthLine = "";
+            
+            foreach (var variable in Game.Reels)
+            {
+                firstLine += "      " + Ascii.GetFruit(variable.Index)[0];
+                secondLine += "      " + Ascii.GetFruit(variable.Index)[1];
+                thirdLine += "      " + Ascii.GetFruit(variable.Index)[2];
+                fourthLine += "      " + Ascii.GetFruit(variable.Index)[3];
+            }
+
+            firstLine += Ascii.Instructions[0];
+            secondLine += Ascii.Instructions[1];
+            
+            Console.WriteLine(firstLine);
+            Console.WriteLine(secondLine);
+            Console.WriteLine(thirdLine);
+            Console.WriteLine(fourthLine);
         }
     }
 }

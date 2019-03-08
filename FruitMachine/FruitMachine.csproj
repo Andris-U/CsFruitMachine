@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ascii.cs" />
+    <Compile Include="Controls.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Gui.cs" />
     <Compile Include="Program.cs" />

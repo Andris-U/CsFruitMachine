@@ -12,6 +12,9 @@ namespace FruitMachine
         private bool _running = true;
         Gui gui = new Gui();
 
+        internal int Credits = 200;
+        internal int PlayerBet;
+
         public void CreateReels()
         {
             for (int i = 0; i < _reelNumber; i++)
@@ -32,7 +35,7 @@ namespace FruitMachine
             }
         }
 
-        private void Render()
+        internal void Render()
         {
             Console.Clear();
             string indexes = "";
@@ -41,8 +44,7 @@ namespace FruitMachine
                 indexes += reel.Index + " ";
             }
             Console.WriteLine(indexes);
-            gui.GenerateLines();
-            gui.renderFruits();
+            gui.GenerateLines(Credits, PlayerBet);
         }
 
         public void Run()
@@ -63,6 +65,13 @@ namespace FruitMachine
                 }
             }
             stopwatch.Stop();
+        }
+
+        public void Bet(int amount)
+        {
+            PlayerBet = amount;
+            Credits = Credits - PlayerBet;
+            Render();
         }
     }
 }
