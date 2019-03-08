@@ -1,4 +1,5 @@
 using System;
+using System.Data.SqlTypes;
 using System.Runtime.InteropServices;
 
 namespace FruitMachine
@@ -8,12 +9,12 @@ namespace FruitMachine
 
         internal void GenerateLines(int credits, int bet)
         {
-            renderTitle();
+            RenderTitle();
             RenderFruits();
             RenderStats(credits, bet);
         }
 
-        internal void renderTitle()
+        internal void RenderTitle()
         {
             Console.WriteLine(Ascii.Title);
         }
@@ -21,7 +22,7 @@ namespace FruitMachine
         internal void RenderStats(int credits, int bet)
         {
             string stats = "";
-            stats += "        Your credits: " + credits;
+            stats += "       Your credits: " + credits;
             stats += "    Your bet: " + bet;
             Console.WriteLine();
             Console.WriteLine(stats);
@@ -45,11 +46,39 @@ namespace FruitMachine
 
             firstLine += Ascii.Instructions[0];
             secondLine += Ascii.Instructions[1];
-            
+            thirdLine += Ascii.Instructions[2];
+            fourthLine += Ascii.Instructions[3];
+                        
             Console.WriteLine(firstLine);
             Console.WriteLine(secondLine);
             Console.WriteLine(thirdLine);
             Console.WriteLine(fourthLine);
+        }
+
+        internal void RenderResults(int index, int winnings)
+        {
+            string text;
+            switch (index)
+            {
+                case 0:
+                    text = "Three apples! You win: " + winnings;
+                    break;
+                case 1:
+                    text = "Three pears! You win: " + winnings;
+                    break;
+                case 2:
+                    text = "Three bananas! You win: " + winnings;
+                    break;
+                case 3:
+                    text = "Three peaches! You win: " + winnings;
+                    break;
+                default:
+                    text = "No luck! Try again!";
+                    break;
+                            
+            }
+            Console.WriteLine(text);
+            Console.WriteLine("Please select an option...");
         }
     }
 }

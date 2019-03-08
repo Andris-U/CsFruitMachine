@@ -4,11 +4,11 @@ namespace FruitMachine
 {
     public class Controls
     {
-        private Game game;
+        private Game _game;
         
         public Controls(Game game)
         {
-            this.game = game;
+            this._game = game;
         }
 
         public void GetInput()
@@ -19,11 +19,16 @@ namespace FruitMachine
                 case 'b':
                     Console.WriteLine("Please select amount:");
                     int amount = int.Parse(Console.ReadLine());
-                    game.Bet(amount);
+                    _game.Bet(amount);
                     GetInput();
                     break;
                 case 's':
-                    game.Run();
+                    _game.Running = true;
+                    _game.CreateReels();
+                    _game.Run();
+                    break;
+                case 'q':
+                    Environment.Exit(0);
                     break;
                 default:
                     GetInput();

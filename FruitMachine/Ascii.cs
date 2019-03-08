@@ -54,8 +54,10 @@ $$ |  $$ |     \$$$$$$  $$ | \$$$$  |      $$ | \_/ $$ \$$$$$$$ \$$$$$$$\$$ |  $
 
         public static string[] Instructions = new[]
         {
-            "     Please select an option: (b) Bet an amount,",
-            "     (s) Start the machine!"
+            "     Please select an option: ",
+            "     [b] Bet an amount,",
+            "     [s] Start the machine!",
+            "     [q] To exit!"
         };
 
         public static string[] GetFruit(int index)
