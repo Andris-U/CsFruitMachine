@@ -3,9 +3,9 @@ using System.Net.NetworkInformation;
 
 namespace FruitMachine
 {
-    public class Ascii
+    public static class Ascii
     {
-        public static string[] Apple = new[]
+        public static string[] Apple = 
         {
             "|      |",
             "| ,(.  |",
@@ -13,7 +13,7 @@ namespace FruitMachine
             "| `\"'  |"
         };
 
-        public static string[] Pear = new[]
+        public static string[] Pear = 
         {
             "|  (   |",
             "| / \\  |",
@@ -21,7 +21,7 @@ namespace FruitMachine
             "| `\"'  |"
         };
 
-        public static string[] Banana = new[]
+        public static string[] Banana = 
         {
             "|      |",
             "|,     |",
@@ -30,7 +30,7 @@ namespace FruitMachine
 
         };
 
-        public static string[] Peach = new[]
+        public static string[] Peach = 
         {
             "|      |",
             "| ,:.  |",
@@ -52,12 +52,12 @@ $$ |  $$ |     \$$$$$$  $$ | \$$$$  |      $$ | \_/ $$ \$$$$$$$ \$$$$$$$\$$ |  $
 
 ";
 
-        public static string[] Instructions = new[]
+        public static string[] Instructions = 
         {
-            "     Please select an option: ",
-            "     [b] Bet an amount,",
+            "     Instructions: ",
+            "     [b] Bet an amount!",
             "     [s] Start the machine!",
-            "     [q] To exit!"
+            "     [q] Exit!"
         };
 
         public static string[] GetFruit(int index)

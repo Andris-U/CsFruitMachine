@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff48dcd2-a755-45c6-b926-092ff2ff4a01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FruitMachine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FruitMachine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FruitMachine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FruitMachine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FruitMachine/Ascii.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/Ascii.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FruitMachine/Controls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/Controls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FruitMachine/FruitMachine.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/FruitMachine.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FruitMachine/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FruitMachine/Gui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/Gui.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FruitMachine/bin/Debug/FruitMachine.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/bin/Debug/FruitMachine.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FruitMachine/bin/Debug/FruitMachine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/bin/Debug/FruitMachine.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FruitMachine/obj/Debug/FruitMachine.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/obj/Debug/FruitMachine.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FruitMachine/obj/Debug/FruitMachine.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/obj/Debug/FruitMachine.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FruitMachine/obj/Debug/FruitMachine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FruitMachine/obj/Debug/FruitMachine.pdb" afterDir="false" />
     </list>
@@ -24,30 +21,30 @@
     <session id="1351277093">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="10" />
+          <entry key="cs" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="10" />
+          <entry key="C#" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4692" />
+          <entry key="cs" value="5698" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4692" />
+          <entry key="C#" value="5698" />
         </counts>
       </usages-collector>
     </session>
@@ -57,10 +54,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FruitMachine/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
               <folding>
-                <marker date="1552062681325" expanded="true" signature="23:326" ph="{...}" />
                 <marker date="1552062681325" expanded="true" signature="52:324" ph="{...}" />
                 <marker date="1552062681325" expanded="true" signature="105:318" ph="{...}" />
               </folding>
@@ -71,47 +67,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FruitMachine/Controls.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="527">
+              <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
               <folding>
-                <marker date="1552068328980" expanded="true" signature="37:978" ph="{...}" />
-                <marker date="1552068328980" expanded="true" signature="65:976" ph="{...}" />
-                <marker date="1552068328980" expanded="true" signature="143:194" ph="{...}" />
-                <marker date="1552068328980" expanded="true" signature="226:952" ph="{...}" />
-                <marker date="1552068328980" expanded="true" signature="315:942" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FruitMachine/Game.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-              <folding>
-                <marker date="1552068328970" expanded="false" signature="6:73" ph="..." />
-                <marker date="1552068328970" expanded="true" signature="97:3166" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="121:3164" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="476:540" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="575:803" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="662:793" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="832:1026" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="883:1016" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="933:1002" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="1058:1461" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="1228:1301" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="1488:2205" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="1651:2090" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="1808:1943" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="2003:2076" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="2242:2316" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="2352:3158" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="2478:3061" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="2533:2631" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="2677:2775" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="2821:2919" ph="{...}" />
-                <marker date="1552068328970" expanded="true" signature="3078:3148" ph="{...}" />
+                <marker date="1552140478092" expanded="false" signature="6:49" ph="..." />
+                <marker date="1552140478092" expanded="true" signature="73:1249" ph="{...}" />
+                <marker date="1552140478092" expanded="true" signature="101:1247" ph="{...}" />
+                <marker date="1552140478092" expanded="true" signature="179:225" ph="{...}" />
+                <marker date="1552140478092" expanded="true" signature="257:1241" ph="{...}" />
+                <marker date="1552140478092" expanded="true" signature="346:1231" ph="{...}" />
+                <marker date="1552140478092" expanded="true" signature="557:772" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,7 +88,6 @@
             <state relative-caret-position="204">
               <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
-                <marker date="1552067274276" expanded="true" signature="22:156" ph="{...}" />
                 <marker date="1552067274276" expanded="true" signature="46:153" ph="{...}" />
               </folding>
             </state>
@@ -133,19 +97,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FruitMachine/Ascii.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+            <state relative-caret-position="1020">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
-                <marker date="1552063071966" expanded="false" signature="6:50" ph="..." />
-                <marker date="1552063071966" expanded="true" signature="74:2262" ph="{...}" />
-                <marker date="1552063071966" expanded="true" signature="99:2260" ph="{...}" />
-                <marker date="1552063071966" expanded="true" signature="159:266" ph="{...}" />
-                <marker date="1552063071966" expanded="true" signature="321:429" ph="{...}" />
-                <marker date="1552063071966" expanded="true" signature="486:594" ph="{...}" />
-                <marker date="1552063071966" expanded="true" signature="650:756" ph="{...}" />
-                <marker date="1552063071966" expanded="true" signature="1717:1834" ph="{...}" />
-                <marker date="1552063071966" expanded="true" signature="1887:2254" ph="{...}" />
-                <marker date="1552063071966" expanded="true" signature="1924:2243" ph="{...}" />
+                <marker date="1552070668561" expanded="false" signature="6:50" ph="..." />
+                <marker date="1552070668561" expanded="true" signature="106:2282" ph="{...}" />
+                <marker date="1552070668561" expanded="true" signature="161:268" ph="{...}" />
+                <marker date="1552070668561" expanded="true" signature="318:426" ph="{...}" />
+                <marker date="1552070668561" expanded="true" signature="478:586" ph="{...}" />
+                <marker date="1552070668561" expanded="true" signature="637:743" ph="{...}" />
+                <marker date="1552070668561" expanded="true" signature="1699:1856" ph="{...}" />
+                <marker date="1552070668561" expanded="true" signature="1909:2276" ph="{...}" />
+                <marker date="1552070668561" expanded="true" signature="1946:2265" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -154,19 +117,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FruitMachine/Gui.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="781">
-              <caret line="78" column="60" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
+            <state relative-caret-position="867">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
               <folding>
-                <marker date="1552067822716" expanded="false" signature="6:79" ph="..." />
-                <marker date="1552067822716" expanded="true" signature="103:2456" ph="{...}" />
-                <marker date="1552067822716" expanded="true" signature="126:2454" ph="{...}" />
-                <marker date="1552067822716" expanded="true" signature="191:305" ph="{...}" />
-                <marker date="1552067822716" expanded="true" signature="342:406" ph="{...}" />
-                <marker date="1552067822716" expanded="true" signature="463:719" ph="{...}" />
-                <marker date="1552067822716" expanded="true" signature="757:1592" ph="{...}" />
-                <marker date="1552067822716" expanded="true" signature="971:1301" ph="{...}" />
-                <marker date="1552067822716" expanded="true" signature="1654:2448" ph="{...}" />
-                <marker date="1552067822716" expanded="true" signature="1716:2340" ph="{...}" />
+                <marker date="1552068457093" expanded="false" signature="6:79" ph="..." />
+                <marker date="1552068457093" expanded="true" signature="126:2563" ph="{...}" />
+                <marker date="1552068457093" expanded="true" signature="191:305" ph="{...}" />
+                <marker date="1552068457093" expanded="true" signature="342:406" ph="{...}" />
+                <marker date="1552068457093" expanded="true" signature="463:719" ph="{...}" />
+                <marker date="1552068457093" expanded="true" signature="757:1701" ph="{...}" />
+                <marker date="1552068457093" expanded="true" signature="971:1301" ph="{...}" />
+                <marker date="1552068457093" expanded="true" signature="1763:2557" ph="{...}" />
+                <marker date="1552068457093" expanded="true" signature="1825:2449" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -178,12 +140,44 @@
             <state relative-caret-position="408">
               <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
-                <marker date="1551990546424" expanded="true" signature="37:674" ph="{...}" />
                 <marker date="1551990546424" expanded="true" signature="61:672" ph="{...}" />
                 <marker date="1551990546424" expanded="true" signature="335:392" ph="{...}" />
                 <marker date="1551990546424" expanded="true" signature="420:666" ph="{...}" />
                 <marker date="1551990546424" expanded="true" signature="465:576" ph="{...}" />
                 <marker date="1551990546424" expanded="true" signature="593:656" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FruitMachine/Game.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <marker date="1552068766531" expanded="false" signature="6:73" ph="..." />
+                <marker date="1552068766531" expanded="true" signature="121:3308" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="476:540" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="575:803" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="662:793" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="832:1026" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="883:1016" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="933:1002" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="1058:1461" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="1228:1301" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="1488:2205" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="1651:2090" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="1808:1943" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="2003:2076" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="2242:2316" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="2352:3302" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="2478:3205" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="2533:2631" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="2677:2774" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="2820:2919" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="2965:3063" ph="{...}" />
+                <marker date="1552068766531" expanded="true" signature="3222:3292" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -209,11 +203,11 @@
       <list>
         <option value="$PROJECT_DIR$/FruitMachine/Reel.cs" />
         <option value="$PROJECT_DIR$/FruitMachine/Program.cs" />
-        <option value="$PROJECT_DIR$/FruitMachine/Ascii.cs" />
         <option value="$PROJECT_DIR$/FruitMachine/Values.cs" />
         <option value="$PROJECT_DIR$/FruitMachine/Value.cs" />
         <option value="$PROJECT_DIR$/FruitMachine/Gui.cs" />
         <option value="$PROJECT_DIR$/FruitMachine/Game.cs" />
+        <option value="$PROJECT_DIR$/FruitMachine/Ascii.cs" />
         <option value="$PROJECT_DIR$/FruitMachine/Controls.cs" />
       </list>
     </option>
@@ -225,10 +219,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="121" />
+    <option name="x" value="125" />
     <option name="y" value="500" />
-    <option name="width" value="1642" />
-    <option name="height" value="580" />
+    <option name="width" value="1634" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -303,12 +297,13 @@
       <option name="presentableId" value="Default" />
       <updated>1551977466978</updated>
       <workItem from="1551977468387" duration="11752000" />
-      <workItem from="1552047791591" duration="11076000" />
+      <workItem from="1552047791591" duration="17906000" />
+      <workItem from="1552140123205" duration="355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22828000" />
+    <option name="totallyTimeSpent" value="30013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,12 +318,12 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5412262" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6617336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,7 +335,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32980973" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32980973" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.5528541" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.17336152" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -368,13 +363,62 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FruitMachine/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FruitMachine/Values.cs" />
+    <entry file="file://$PROJECT_DIR$/FruitMachine/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
-            <marker date="1551977464666" expanded="false" signature="6:62" ph="..." />
-            <marker date="1551977464666" expanded="true" signature="64:251" ph="/* General Information about an assembly is controlled through the following ... */" />
-            <marker date="1551977464666" expanded="true" signature="562:772" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
-            <marker date="1551977464666" expanded="true" signature="947:1274" ph="/* Version information for an assembly consists of the following four values: ... */" />
+            <marker date="1552062681325" expanded="true" signature="52:324" ph="{...}" />
+            <marker date="1552062681325" expanded="true" signature="105:318" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FruitMachine/Value.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1552067274276" expanded="true" signature="46:153" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FruitMachine/Ascii.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <marker date="1552070668561" expanded="false" signature="6:50" ph="..." />
+            <marker date="1552070668561" expanded="true" signature="106:2282" ph="{...}" />
+            <marker date="1552070668561" expanded="true" signature="161:268" ph="{...}" />
+            <marker date="1552070668561" expanded="true" signature="318:426" ph="{...}" />
+            <marker date="1552070668561" expanded="true" signature="478:586" ph="{...}" />
+            <marker date="1552070668561" expanded="true" signature="637:743" ph="{...}" />
+            <marker date="1552070668561" expanded="true" signature="1699:1856" ph="{...}" />
+            <marker date="1552070668561" expanded="true" signature="1909:2276" ph="{...}" />
+            <marker date="1552070668561" expanded="true" signature="1946:2265" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FruitMachine/Gui.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+          <folding>
+            <marker date="1552068457093" expanded="false" signature="6:79" ph="..." />
+            <marker date="1552068457093" expanded="true" signature="126:2563" ph="{...}" />
+            <marker date="1552068457093" expanded="true" signature="191:305" ph="{...}" />
+            <marker date="1552068457093" expanded="true" signature="342:406" ph="{...}" />
+            <marker date="1552068457093" expanded="true" signature="463:719" ph="{...}" />
+            <marker date="1552068457093" expanded="true" signature="757:1701" ph="{...}" />
+            <marker date="1552068457093" expanded="true" signature="971:1301" ph="{...}" />
+            <marker date="1552068457093" expanded="true" signature="1763:2557" ph="{...}" />
+            <marker date="1552068457093" expanded="true" signature="1825:2449" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -384,7 +428,6 @@
         <state relative-caret-position="408">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
-            <marker date="1551990546424" expanded="true" signature="37:674" ph="{...}" />
             <marker date="1551990546424" expanded="true" signature="61:672" ph="{...}" />
             <marker date="1551990546424" expanded="true" signature="335:392" ph="{...}" />
             <marker date="1551990546424" expanded="true" signature="420:666" ph="{...}" />
@@ -394,115 +437,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FruitMachine/Values.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FruitMachine/Value.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <marker date="1552067274276" expanded="true" signature="22:156" ph="{...}" />
-            <marker date="1552067274276" expanded="true" signature="46:153" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FruitMachine/Ascii.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-          <folding>
-            <marker date="1552063071966" expanded="false" signature="6:50" ph="..." />
-            <marker date="1552063071966" expanded="true" signature="74:2262" ph="{...}" />
-            <marker date="1552063071966" expanded="true" signature="99:2260" ph="{...}" />
-            <marker date="1552063071966" expanded="true" signature="159:266" ph="{...}" />
-            <marker date="1552063071966" expanded="true" signature="321:429" ph="{...}" />
-            <marker date="1552063071966" expanded="true" signature="486:594" ph="{...}" />
-            <marker date="1552063071966" expanded="true" signature="650:756" ph="{...}" />
-            <marker date="1552063071966" expanded="true" signature="1717:1834" ph="{...}" />
-            <marker date="1552063071966" expanded="true" signature="1887:2254" ph="{...}" />
-            <marker date="1552063071966" expanded="true" signature="1924:2243" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FruitMachine/Gui.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="78" column="60" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
-          <folding>
-            <marker date="1552067822716" expanded="false" signature="6:79" ph="..." />
-            <marker date="1552067822716" expanded="true" signature="103:2456" ph="{...}" />
-            <marker date="1552067822716" expanded="true" signature="126:2454" ph="{...}" />
-            <marker date="1552067822716" expanded="true" signature="191:305" ph="{...}" />
-            <marker date="1552067822716" expanded="true" signature="342:406" ph="{...}" />
-            <marker date="1552067822716" expanded="true" signature="463:719" ph="{...}" />
-            <marker date="1552067822716" expanded="true" signature="757:1592" ph="{...}" />
-            <marker date="1552067822716" expanded="true" signature="971:1301" ph="{...}" />
-            <marker date="1552067822716" expanded="true" signature="1654:2448" ph="{...}" />
-            <marker date="1552067822716" expanded="true" signature="1716:2340" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FruitMachine/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1552062681325" expanded="true" signature="23:326" ph="{...}" />
-            <marker date="1552062681325" expanded="true" signature="52:324" ph="{...}" />
-            <marker date="1552062681325" expanded="true" signature="105:318" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FruitMachine/Game.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
-            <marker date="1552068328970" expanded="false" signature="6:73" ph="..." />
-            <marker date="1552068328970" expanded="true" signature="97:3166" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="121:3164" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="476:540" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="575:803" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="662:793" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="832:1026" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="883:1016" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="933:1002" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="1058:1461" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="1228:1301" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="1488:2205" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="1651:2090" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="1808:1943" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="2003:2076" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="2242:2316" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="2352:3158" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="2478:3061" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="2533:2631" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="2677:2775" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="2821:2919" ph="{...}" />
-            <marker date="1552068328970" expanded="true" signature="3078:3148" ph="{...}" />
+            <marker date="1552068766531" expanded="false" signature="6:73" ph="..." />
+            <marker date="1552068766531" expanded="true" signature="121:3308" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="476:540" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="575:803" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="662:793" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="832:1026" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="883:1016" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="933:1002" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="1058:1461" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="1228:1301" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="1488:2205" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="1651:2090" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="1808:1943" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="2003:2076" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="2242:2316" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="2352:3302" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="2478:3205" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="2533:2631" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="2677:2774" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="2820:2919" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="2965:3063" ph="{...}" />
+            <marker date="1552068766531" expanded="true" signature="3222:3292" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FruitMachine/Controls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="527">
+          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding>
-            <marker date="1552068328980" expanded="true" signature="37:978" ph="{...}" />
-            <marker date="1552068328980" expanded="true" signature="65:976" ph="{...}" />
-            <marker date="1552068328980" expanded="true" signature="143:194" ph="{...}" />
-            <marker date="1552068328980" expanded="true" signature="226:952" ph="{...}" />
-            <marker date="1552068328980" expanded="true" signature="315:942" ph="{...}" />
+            <marker date="1552140478092" expanded="false" signature="6:49" ph="..." />
+            <marker date="1552140478092" expanded="true" signature="73:1249" ph="{...}" />
+            <marker date="1552140478092" expanded="true" signature="101:1247" ph="{...}" />
+            <marker date="1552140478092" expanded="true" signature="179:225" ph="{...}" />
+            <marker date="1552140478092" expanded="true" signature="257:1241" ph="{...}" />
+            <marker date="1552140478092" expanded="true" signature="346:1231" ph="{...}" />
+            <marker date="1552140478092" expanded="true" signature="557:772" ph="{...}" />
           </folding>
         </state>
       </provider>

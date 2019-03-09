@@ -1,4 +1,6 @@
 using System;
+using System.IO;
+using System.Linq;
 
 namespace FruitMachine
 {
@@ -8,7 +10,7 @@ namespace FruitMachine
         
         public Controls(Game game)
         {
-            this._game = game;
+            _game = game;
         }
 
         public void GetInput()
@@ -18,7 +20,23 @@ namespace FruitMachine
             {
                 case 'b':
                     Console.WriteLine("Please select amount:");
-                    int amount = int.Parse(Console.ReadLine());
+                    int amount = 0;
+                    if (!int.TryParse(Console.ReadLine(), out amount))
+                    {
+                        Console.WriteLine("Invalid number. Press any key co continue...");
+                        Console.ReadLine();
+                        _game.Render();
+                        GetInput();
+                    }
+
+                    if (amount > _game.Credits)
+                    {
+                        Console.WriteLine("Not enough credits! Press any key to continue...");
+                        Console.ReadLine();
+                        _game.Render();
+                        GetInput();
+                        
+                    }
                     _game.Bet(amount);
                     GetInput();
                     break;
@@ -35,7 +53,5 @@ namespace FruitMachine
                     break;
             }
         }
-        
-        
     }
 }

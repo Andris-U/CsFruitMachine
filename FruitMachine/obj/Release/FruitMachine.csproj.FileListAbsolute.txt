@@ -1,0 +1,6 @@
+/home/n/RiderProjects/FruitMachine/FruitMachine/bin/Release/FruitMachine.exe
+/home/n/RiderProjects/FruitMachine/FruitMachine/bin/Release/FruitMachine.pdb
+/home/n/RiderProjects/FruitMachine/FruitMachine/obj/Release/FruitMachine.csprojAssemblyReference.cache
+/home/n/RiderProjects/FruitMachine/FruitMachine/obj/Release/FruitMachine.csproj.CoreCompileInputs.cache
+/home/n/RiderProjects/FruitMachine/FruitMachine/obj/Release/FruitMachine.exe
+/home/n/RiderProjects/FruitMachine/FruitMachine/obj/Release/FruitMachine.pdb

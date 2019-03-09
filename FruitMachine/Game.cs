@@ -100,11 +100,15 @@ namespace FruitMachine
                 }
                 else if (Reels[0].Index == 1)
                 {
-                    winnings = PlayerBet * (int) Value.Apple;
+                    winnings = PlayerBet * (int) Value.Pear;
                 }
                 else if (Reels[0].Index == 2)
                 {
-                    winnings = PlayerBet * (int) Value.Apple;
+                    winnings = PlayerBet * (int) Value.Banana;
+                }
+                else if (Reels[0].Index == 3)
+                {
+                    winnings = PlayerBet * (int) Value.Peach;
                 }
                 Credits += winnings;
                 Render();
