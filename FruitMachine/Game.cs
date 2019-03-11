@@ -10,6 +10,7 @@ namespace FruitMachine
         private int _reelNumber = 3;
         private readonly Random _random = new Random();
         internal bool Running = true;
+        
         Gui _gui = new Gui();
         Controls _controls;
 
@@ -65,6 +66,7 @@ namespace FruitMachine
             stopwatch.Start();
             while (Running)
             {
+                
                 // Set FPS to 25 (1000ms / 25 = 40)
                 if (Reels[Reels.Count -1].IsRunning && stopwatch.ElapsedMilliseconds > 40)
                 {

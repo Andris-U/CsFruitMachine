@@ -55,8 +55,8 @@ $$ |  $$ |     \$$$$$$  $$ | \$$$$  |      $$ | \_/ $$ \$$$$$$$ \$$$$$$$\$$ |  $
         public static string[] Instructions = 
         {
             "     Instructions: ",
-            "     [b] Bet an amount!",
-            "     [s] Start the machine!",
+            "     [b] Bet an amount!" + "  [s] Start the machine!",
+            "     [h] Help",
             "     [q] Exit!"
         };
 

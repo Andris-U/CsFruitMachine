@@ -12,7 +12,7 @@ namespace FruitMachine
 
         public Reel(int maxTime)
         {
-            this._maxTime = maxTime;
+            _maxTime = maxTime;
         }
 
         public void Tick()

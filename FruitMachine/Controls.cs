@@ -45,6 +45,11 @@ namespace FruitMachine
                     _game.CreateReels();
                     _game.Run();
                     break;
+                case 'h':
+                    HelpPage.RenderHelpPage();
+                    _game.Render();
+                    GetInput();
+                    break;
                 case 'q':
                     Environment.Exit(0);
                     break;
